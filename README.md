@@ -6,11 +6,11 @@ A somewhat unpolished discord moderation bot thats inside of heavy beta. Current
 3: View .help inside of the bot for more info.
 # How to self host
 1: Make a new folder on your self-hosted linux server called whatever you wanna make it named. Heres a small script that you can paste into your terminal if you need it.
-
+(Make sure to change the [] placeholders
 ```bash
 # Install npm, initialize a node.js folder, curl install from the link for the newest script on https://web.kiritoasty.us
 sudo [your package manager here] [your package manager intall flag here] npm
-mkdir whateveryouwanttonameit && cd whateveryouwanttonameit
+mkdir [whateveryouwanttonameit] && cd [whateveryouwanttonameit]
 npm init -y
 npm install discord.js
 curl -O https://web.kiritoasty.us/kiritoaster-utility/index.js
