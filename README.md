@@ -8,8 +8,12 @@ A somewhat unpolished discord moderation bot thats inside of heavy beta. Current
 1: Make a new folder on your self-hosted linux server called whatever you wanna make it named. Heres a small script that you can paste into your terminal if you need it.
 
 ```bash
-# Create a folder, go inside it, init npm, install discord.js, and download script
+# Install npm, initialize a node.js folder, curl install from the link for the newest script on https://web.kiritoasty.us
 mkdir whateveryouwanttonameit && cd whateveryouwanttonameit
 npm init -y
 npm install discord.js
 curl -O https://web.kiritoasty.us/kiritoaster-utility/index.js
+```
+# What does this do?
+
+1: Install node.js (dicord.js uses this bot and thats on node.js) and then make a folder with the bot folder you want it to be named, initialize a node.js folder, install discord.js (required for the bot), and curl from the newest script for Kiritoaster Utility.
