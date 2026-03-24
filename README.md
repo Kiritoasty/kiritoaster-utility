@@ -9,6 +9,7 @@ A somewhat unpolished discord moderation bot thats inside of heavy beta. Current
 
 ```bash
 # Install npm, initialize a node.js folder, curl install from the link for the newest script on https://web.kiritoasty.us
+sudo [your package manager here] [your package manager intall flag here] npm
 mkdir whateveryouwanttonameit && cd whateveryouwanttonameit
 npm init -y
 npm install discord.js
