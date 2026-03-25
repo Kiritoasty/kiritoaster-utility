@@ -145,7 +145,7 @@ client.on('messageCreate', async (message) => {
 
     if (message.content.startsWith(`${prefix}setup`)) {
         if (!message.member.permissions.has(PermissionsBitField.Flags.Administrator))
-            return message.reply("You don't have permission.");
+            return message.reply("You don't have permission for this mimi blud");
 
         if (args[1] === "antiraid") {
             config.antiraid = true;
